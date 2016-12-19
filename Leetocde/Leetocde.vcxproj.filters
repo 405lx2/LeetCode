@@ -21,15 +21,15 @@
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="2. Add Two Numbers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Leetocde.cpp">
+    <ClCompile Include="6. ZigZag Conversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindCharApperenceOnce.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
