@@ -1,7 +1,11 @@
 
 #include "stdafx.h"
+#include <iostream>
+#include <filesystem>
+using namespace std;
 
- struct ListNode {
+
+struct ListNode {
 	int val;
 	ListNode *next;
 	ListNode(int x) : val(x), next(NULL) {}
@@ -33,10 +37,10 @@ public:
 				pt1 = pt1->next;
 				pt2 = pt2->next;
 				result = pt1->val + pt2->val;
-				if (result > 10)
+				if (result >= 10)
 					result = result - 10;
-				t->next->val = result;
-				
+				t->next= &ListNode(result);
+	
 				t = t->next;
 			}
 		
@@ -65,22 +69,28 @@ int main(int argc, char* argv[])
 
 	ListNode l0 = ListNode(2);
 	ListNode *l01=&l0;
-	l01->next->val = 4;
+	l01->next = &ListNode(4);
 	l01 = l01->next;
-	l01->next->val = 3;
+	l01->next = &ListNode(3);
 	
 	ListNode *l1 = &l0;
 
 
 	ListNode L20 = ListNode(5);
 	ListNode* l02 = &L20;
-	l02->next->val = 6;
+	l02->next= &ListNode(6);
 	l02 = l02->next;
-	l02->next->val = 4;
+	l02->next= &ListNode(4);
 
 	ListNode *l2 = &L20;
 
+	ListNode *result = solution.addTwoNumbers(l2, l1);
 
+	while (result->next!=nullptr)
+	{
+		cout << result ->val<< endl;
+		result = result->next;
+	}
 
 	return  0;
 }

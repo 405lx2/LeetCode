@@ -23,5 +23,8 @@
     <ClCompile Include="2. Add Two Numbers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="7. Reverse Integer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
