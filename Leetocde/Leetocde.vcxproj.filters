@@ -26,5 +26,8 @@
     <ClCompile Include="7. Reverse Integer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="21. Merge Two Sorted Lists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

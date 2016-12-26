@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2. Add Two Numbers.cpp" />
+    <ClCompile Include="21. Merge Two Sorted Lists.cpp" />
     <ClCompile Include="7. Reverse Integer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
