@@ -19,11 +19,16 @@ public:
 			int value = l1->val > l2->val ? l1->val : l2->val;
 			p->next = new ListNode(value);
 			p = p->next;
-			l1 = (value == l1->val) ? l1->next : l1;
-			l2 = (value == l1->val) ? l2 : l2->next;
+			l1 = (l1->val >=l2->val) ? l1->next : l1;
+			l2 = (l1->val >= l2->val) ? l2 : l2->next;
 
 		}
 		return preHead.next;
 	}
 };
 
+int main()
+{
+
+	return 0;
+}

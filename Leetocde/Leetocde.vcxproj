@@ -147,7 +147,9 @@
   <ItemGroup>
     <ClCompile Include="2. Add Two Numbers.cpp" />
     <ClCompile Include="21. Merge Two Sorted Lists.cpp" />
+    <ClCompile Include="22. Generate Parentheses.cpp" />
     <ClCompile Include="7. Reverse Integer.cpp" />
+    <ClCompile Include="9. Palindrome Number.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
